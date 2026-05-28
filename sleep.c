@@ -15,8 +15,8 @@ int main()
  /* 
 
  "fflush()" usage is essential here as buffer will only output 
- if it sees the "/n"-newline character therefore if not used the sleep
- time is combined untill "/n" is seen cause inaccurate output
+ if it sees the "\n"-newline character therefore if not used the sleep
+ time is combined untill "\n" is seen cause inaccurate output
 
  */
 

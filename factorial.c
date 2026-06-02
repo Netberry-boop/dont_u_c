@@ -9,12 +9,12 @@ int fact(int num)
     return 1;
 }
 
-int mod(int num)
+int mod(int num) // this function returns last digit - remainder
 {
     return num % 10;
 }
 
-int sum_of_fact(int num)
+int sum_of_fact(int num) // returns sum of factorial of digits
 {
     int sum = 0;
     while (num > 0)
@@ -27,10 +27,11 @@ int sum_of_fact(int num)
 
 int main()
 {
-    for (int i = 0; i <= 100000; i++)
+    for (int i = 0; i <= 100000; i++) // range from 1 - 100000
     {
-        if (i == sum_of_fact(i)){
-        printf("%d\n",i);
+        if (i == sum_of_fact(i)) // checking if number and sum of factorial of digits are equal
+        {
+            printf("%d\n", i);
         }
     }
     return 0;

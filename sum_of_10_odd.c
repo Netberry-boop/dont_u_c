@@ -1,4 +1,13 @@
 /* sum_of_10_odd */
+/* Algorithm steps
+1) initalize variable count, num, and sum
+2) traverse natural numbers
+3) if the current number is odd, add it to sum and increment count
+4) repeat steps 3,4 untill count becomes 10 
+5) print value of sum
+6) stop
+
+*/
 
 #include<stdio.h> 
 int is_odd(int num){

@@ -1,4 +1,13 @@
 /* sum_of_3_digit_even_N.c */
+/*Algorithm 
+1) start 
+2) intialize variables
+3) traverse natural numbers
+4) if a number is a 3-digit number and is even, add it to sum 
+5) continue until all 3-digit numbers have been taken into consideration 
+6) print value of sum
+7) stop
+*/
 
 #include<stdio.h>
 int num_digit(int num){

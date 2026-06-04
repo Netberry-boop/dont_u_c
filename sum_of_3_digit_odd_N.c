@@ -1,4 +1,12 @@
 /* sum_of_3_digit_odd_N.c */
+/*Algorithm 
+1) start 
+2) intialize variables
+3) traverse natural numbers
+4) if a number is a 3-digit, odd, and a multiple of 5, add it to sum  
+5) print the value of sum 
+6) stop
+*/
 
 #include<stdio.h>
 int num_digit(int num){
